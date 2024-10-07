@@ -1,0 +1,13 @@
+<form class="row">
+    <div class="col-4 form-group">
+        <label for="nombre" class="d-none">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="form-control" #nombreInput>
+    </div>
+    <div class="col-4 form-group">
+        <label for="apellido" class="d-none">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="form-control" #apellidoInput>
+    </div>
+    <div class="col">
+        <button type="submit" class="btn btn-primary" (click)="agregarPersona()">Agregar</button>
+    </div>
+</form>
